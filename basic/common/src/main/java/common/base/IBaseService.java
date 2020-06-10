@@ -1,5 +1,7 @@
 package common.base;
 
+import com.github.pagehelper.PageInfo;
+
 import java.util.List;
 
 public interface IBaseService<T> {
@@ -17,4 +19,6 @@ public interface IBaseService<T> {
     int updateByPrimaryKeySelective(T t);
 
     List<T> list();
+
+    public PageInfo<T> page(Integer pageIndex, Integer pageSize);
 }

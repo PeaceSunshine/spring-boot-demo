@@ -1,0 +1,3 @@
+com\api\product\IProductService.class
+com\api\product\IProductTypeService.class
+com\api\VO\ProductVO.class

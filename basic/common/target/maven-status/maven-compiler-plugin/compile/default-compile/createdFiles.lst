@@ -1,0 +1,3 @@
+common\base\IBaseDao.class
+common\base\IBaseService.class
+common\base\BaseServiceImpl.class

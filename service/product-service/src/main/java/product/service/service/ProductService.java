@@ -39,7 +39,7 @@ public class ProductService extends BaseServiceImpl<TProduct> implements IProduc
     }
 
 
-    @Override
+    /*@Override
     public PageInfo<TProduct> page(Integer pageIndex, Integer pageSize) {
         //设置page页属性
         PageHelper.startPage(pageIndex,pageSize);
@@ -52,7 +52,7 @@ public class ProductService extends BaseServiceImpl<TProduct> implements IProduc
         pageInfo.setPages(pageSize);
         pageInfo.setSize(pageSize);
         return pageInfo;
-    }
+    }*/
 
     @Override
     public Long add(ProductVO productVO) {
