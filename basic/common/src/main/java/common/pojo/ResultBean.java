@@ -8,6 +8,7 @@ import jdk.internal.dynalink.beans.StaticClass;
  **/
 public class ResultBean {
 
+
     public Integer getStatusCode() {
         return statusCode;
     }
@@ -16,12 +17,12 @@ public class ResultBean {
         this.statusCode = statusCode;
     }
 
-    public String getDate() {
-        return date;
+    public String getData() {
+        return data;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public void setData(String data) {
+        this.data = data;
     }
 
     public String getMsg() {
@@ -35,20 +36,20 @@ public class ResultBean {
     //状态码
     private Integer statusCode;
     //成功返回数据
-    private String date;
+    private String data;
     //失败返回错误信息
     private String msg;
 
     public static  ResultBean success(String data){
         ResultBean resultBean = new ResultBean();
         resultBean.setStatusCode(200);
-        resultBean.setDate(data);
+        resultBean.setData(data);
         return  resultBean;
     }
     public static ResultBean error(String msg){
         ResultBean resultBean = new ResultBean();
         resultBean.setStatusCode(500);
-        resultBean.setDate(msg);
+        resultBean.setMsg(msg);
         return  resultBean;
 
     }
