@@ -21,7 +21,7 @@ public class ProductTypeController {
     private IProductTypeService productTypeService;
 
     @GetMapping("list")
-    public List<TProductType> list(){
-        return  productTypeService.list();
+    public List<TProductType> list() {
+        return productTypeService.list();
     }
 }

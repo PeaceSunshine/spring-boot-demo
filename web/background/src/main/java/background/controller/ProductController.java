@@ -26,21 +26,21 @@ public class ProductController {
     private IProductService productService;
 
     @GetMapping("list")
-    public String list(Model model){
+    public String list(Model model) {
         List<TProduct> list = productService.list();
-        model.addAttribute("list",list);
+        model.addAttribute("list", list);
         return "product/list";
     }
 
     @GetMapping("page/{pageIndex}/{pageSize}")
-    public String page(Model model, @PathVariable("pageIndex") Integer pageIndex,@PathVariable("pageSize") Integer pageSize){
-        PageInfo<TProduct> pageInfo = productService.page(pageIndex,pageSize);
-        model.addAttribute("pageInfo",pageInfo);
+    public String page(Model model, @PathVariable("pageIndex") Integer pageIndex, @PathVariable("pageSize") Integer pageSize) {
+        PageInfo<TProduct> pageInfo = productService.page(pageIndex, pageSize);
+        model.addAttribute("pageInfo", pageInfo);
         return "product/list";
     }
 
     @PostMapping("add")
-    public String add(ProductVO productVO){
+    public String add(ProductVO productVO) {
         Long productId = productService.add(productVO);
 
         return "redirect:/product/page/1/1";
