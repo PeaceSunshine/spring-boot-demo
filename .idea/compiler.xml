@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="web" />
-        <module name="mapper" />
-        <module name="api" />
+        <module name="search" />
+        <module name="product-service" />
         <module name="common" />
         <module name="entity" />
-        <module name="product-service" />
+        <module name="search-service" />
         <module name="background" />
+        <module name="mapper" />
+        <module name="index" />
         <module name="product-api" />
         <module name="service" />
+        <module name="search-api" />
         <module name="basic" />
       </profile>
     </annotationProcessing>
@@ -24,9 +27,13 @@
       <module name="basic" target="1.8" />
       <module name="common" target="6" />
       <module name="entity" target="1.5" />
+      <module name="index" target="1.8" />
       <module name="mapper" target="1.8" />
       <module name="product-api" target="1.5" />
       <module name="product-service" target="1.8" />
+      <module name="search" target="1.8" />
+      <module name="search-api" target="1.5" />
+      <module name="search-service" target="1.8" />
       <module name="service" target="1.8" />
       <module name="spring-boot-demo1" target="1.8" />
       <module name="web" target="1.8" />
@@ -36,8 +43,11 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="background" options="-parameters" />
       <module name="basic" options="-parameters" />
+      <module name="index" options="-parameters" />
       <module name="mapper" options="-parameters" />
       <module name="product-service" options="-parameters" />
+      <module name="search" options="-parameters" />
+      <module name="search-service" options="-parameters" />
       <module name="service" options="-parameters" />
       <module name="web" options="-parameters" />
     </option>

@@ -7,9 +7,13 @@
       <module fileurl="file://$PROJECT_DIR$/basic/basic.iml" filepath="$PROJECT_DIR$/basic/basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/common/common.iml" filepath="$PROJECT_DIR$/basic/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/entity/entity.iml" filepath="$PROJECT_DIR$/basic/entity/entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/index/index.iml" filepath="$PROJECT_DIR$/web/index/index.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/mapper/mapper.iml" filepath="$PROJECT_DIR$/basic/mapper/mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/product-api/product-api.iml" filepath="$PROJECT_DIR$/api/product-api/product-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/product-service/product-service.iml" filepath="$PROJECT_DIR$/service/product-service/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/search/search.iml" filepath="$PROJECT_DIR$/web/search/search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/search-api/search-api.iml" filepath="$PROJECT_DIR$/api/search-api/search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/search-service/search-service.iml" filepath="$PROJECT_DIR$/service/search-service/search-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-demo1.iml" filepath="$PROJECT_DIR$/spring-boot-demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />

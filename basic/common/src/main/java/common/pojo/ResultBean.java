@@ -2,11 +2,13 @@ package common.pojo;
 
 import jdk.internal.dynalink.beans.StaticClass;
 
+import java.io.Serializable;
+
 /**
  * @Author lx
  * @Date 2020/6/10
  **/
-public class ResultBean {
+public class ResultBean implements Serializable {
 
 
     public Integer getStatusCode() {

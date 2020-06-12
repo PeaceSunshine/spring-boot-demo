@@ -13,6 +13,9 @@
     <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
     <result column="type_id" jdbcType="INTEGER" property="typeId" />
     <result column="type_name" jdbcType="VARCHAR" property="typeName" />
+    <result column="create_user" jdbcType="BIGINT" property="createUser" />
+    <result column="update_user" jdbcType="BIGINT" property="updateUser" />
+    <result column="stock" jdbcType="BIGINT" property="stock" />
   </resultMap>
   <sql id="Base_Column_List">
     id, name, price, sale_price, image, sale_point, flag, create_time, update_time,

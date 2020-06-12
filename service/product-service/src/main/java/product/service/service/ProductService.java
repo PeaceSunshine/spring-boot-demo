@@ -60,6 +60,7 @@ public class ProductService extends BaseServiceImpl<TProduct> implements IProduc
         TProduct product = productVO.getProduct();
         product.setFlag(true);
         product.setCreateTime(new Date());
+        product.setImage(product.getImage());
         product.setUpdateTime(product.getCreateTime());
         product.setUpdateUser(1L);
         product.setCreateUser(1L);
