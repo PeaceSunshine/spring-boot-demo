@@ -913,12 +913,15 @@
         </div>
         <div class="shop-right-con">
             <ul class="shop-ul-tu shop-ul-tu1">
-                <li th:each="product : ${list}">
+                <li th:each="product : ${list}" style="height: 320px;width: 230px;margin: 0 8px 8px 0">
                     <div class="li-top">
-                        <a href="#" class="li-top-tu"><img  th:src="${product.image}" style="width: 200px;height: 200px;"/></a>
+                        <a href="#" class="li-top-tu"><img  th:src="${product.image}" style="width: 150px;height: 150px;"/></a>
                         <p class="jiage">￥<span class="sp1" th:text="|${product.price}|">￥109</span><span class="sp2">￥999999</span></p>
+<!--                        <p class="jiage" > <span class="sp1" th:utext="${product.name}">德国原装进口Wurenbacher瓦伦冰黑啤5L/桶</span><span class="sp2" th:utext="${product.salePoint}">卖点</span></p>-->
                     </div>
                     <p class="miaoshu" th:utext="${product.name}">德国原装进口Wurenbacher瓦伦冰黑啤5L/桶</p>
+                    <p class="miaoshu" th:utext="${product.salePoint}">卖点</p>
+
                     <div class="li-md">
                         <div class="md-l f-l">
                             <p class="md-l-l f-l" ap="">1</p>
@@ -934,8 +937,8 @@
                         </div>
                         <div style="clear:both;"></div>
                     </div>
-                    <p class="pingjia">8888888评价</p>
-                    <p class="weike">微克宅购自营</p>
+                    <p class="pingjia" style="margin-top: 9px">8888888评价</p>
+<!--                    <p class="weike">微克宅购自营</p>-->
                 </li>
 
                 <div style="clear:both;"></div>

@@ -3,6 +3,7 @@ package background.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.api.VO.ProductVO;
 import com.api.product.IProductService;
+import com.api.search.ISearchService;
 import com.entity.TProduct;
 import com.github.pagehelper.PageInfo;
 import org.springframework.stereotype.Controller;
@@ -25,6 +26,9 @@ public class ProductController {
     @Reference
     private IProductService productService;
 
+    @Reference
+    private ISearchService searchService;
+
     @GetMapping("list")
     public String list(Model model) {
         List<TProduct> list = productService.list();
@@ -42,7 +46,9 @@ public class ProductController {
     @PostMapping("add")
     public String add(ProductVO productVO) {
         Long productId = productService.add(productVO);
-
+        System.out.println("商品controller id:"+productId);
+        //更新solr索引库
+        searchService.updateById(productId);
         return "redirect:/product/page/1/1";
     }
 }

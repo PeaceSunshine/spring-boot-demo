@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/web/index/pom.xml" />
         <option value="$PROJECT_DIR$/service/search-service/pom.xml" />
         <option value="$PROJECT_DIR$/web/search/pom.xml" />
+        <option value="$PROJECT_DIR$/service/item-service/pom.xml" />
       </list>
     </option>
   </component>

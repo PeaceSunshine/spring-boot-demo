@@ -1,596 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a08354f9-3d85-4ece-8dbe-28eb0c3a9593" name="Default Changelist" comment="富文本编辑器功能和主页分类功能">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_8_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_http2_http2_client_9_4_28_v20200408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_http2_http2_common_9_4_28_v20200408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_http2_http2_hpack_9_4_28_v20200408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_http2_http2_http_client_transport_9_4_28_v20200408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_alpn_client_9_4_28_v20200408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_alpn_java_client_9_4_28_v20200408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_28_v20200408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_28_v20200408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_28_v20200408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_28_v20200408.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_solr_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_solr_4_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/search-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/search-api/search-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/search-api/src/main/java/com/api/search/ISearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/search-api/target/classes/com/api/search/ISearchService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/common/src/main/java/common/pojo/MultiUploadResultBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/common/target/classes/common/pojo/MultiUploadResultBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/product-service/product-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/product-service/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/product-service/target/classes/product/service/ProductServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/product-service/target/classes/product/service/config/CommonConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/product-service/target/classes/product/service/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/product-service/target/classes/product/service/service/ProductTypeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/product-service/target/test-classes/spring/boot/demo/product/service/ProductServiceApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/search-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/src/main/java/com/SearchServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/src/main/java/com/service/SearchServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/src/test/java/com/SearchServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/target/classes/META-INF/search-service.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/target/classes/com/SearchServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/target/classes/com/service/SearchServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/search-service/target/test-classes/com/SearchServiceApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background/background.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background/target/classes/background/BackgroundApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background/target/classes/background/controller/FileController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background/target/classes/background/controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background/target/classes/background/controller/ProductTypeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background/target/classes/static/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background/target/classes/static/css/uploadifive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background/target/classes/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background/target/classes/static/js/jquery.uploadifive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background/target/classes/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background/target/classes/templates/product/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background/target/test-classes/background/BackgroundApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/search.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/java/com/SearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/java/com/controller/SearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/css/doubleDate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/css/shopping-mall-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/css/star-rating.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/css/star-rating.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/css/zhongling2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/about-us-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/about-us-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/about-us-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/about-us-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/b5-a2-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/b5-a2-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/b5-if1-l-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/banner-bgtu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/banner-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/banner-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/beaut-con-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/beaut-con-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/beaut-con-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/beaut-con-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/beaut-lg-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/beaut-lg-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/beaut-lg-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/box3-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/box7-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/box7-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/box7-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/box7-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/box7-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/box7-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/close-select-city.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/confirmation-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/confirmation-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dai.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dai1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dai2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/data-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/data-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/din-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/din-m-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/din-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dingwei-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dingwei-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dingwei-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dingwei-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dingwei-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dingwei-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dl3-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dl3-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-l-tuda1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-l-tuda2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-l-tuda3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-l-tuda4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-l-tuda5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-l-tuda6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-l-tuda7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-l-tuda8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-qietu-left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-qietu-right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-qietu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-qietu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-qietu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-qietu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-qietu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-qietu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-if1-qietu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-ifm-sp1-img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-ifr-fd-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-kj.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-wx.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/dt-xl.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ed-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ed-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/erweima-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/erweima-tu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/fa-r-con-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/fa-r-con-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/fa-r-con-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/fa-r-con-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/failure.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hm-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hm-m-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hm-m-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hm-r-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/home-b-m-dtbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hot-tu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hot-tu2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hot-tu3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hot-tu4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hot-tu5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hot-tu6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hot-tu7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hot-tu8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/hover-br-li-tu9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/if2-l-box1-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/if2-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/if2-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/if2-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/if2-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/if2-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/if2-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/if2-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/in-matong.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/in-matong2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/in-matong3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/int-r-con-li-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/int-r-con-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/int-r-con-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/integral-left-li-p1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/integral-left-li-p2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/integral-left-li-p3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/integral-left-li-p4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/integral-left-li-p5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/integral-left-li-p6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/integral-left-li-p7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/integral-left-li-p8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/jiangheng.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/kj-show-dt-tu1-show.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/kj-show-dt-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/kj-tu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/kj-tu2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/kj-tu3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ktv-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ktv-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ktv-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ktv-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ktv-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ktv-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ktv-li-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ktv-li-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/lanyuelian.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/logn-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/m-act-adverut.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/m-act-adverut2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/m-act-adverut3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/m-act-con-firstli-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/m-act-con-li-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ma-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ma-r-tu/ma-r-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ma-r-tu/ma-r-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ma-r-tu/ma-r-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ma-r-tu/ma-r-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ma-r-tu/ma-r-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ma-r-tu/ma-r-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ma-r-tu/ma-r-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ma-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/message-board-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/mk-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/mk-m-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/mk-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/pcm-con-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/pers-l-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/pers-l-tu10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/pers-l-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/pers-l-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/pers-l-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/pers-l-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/pers-l-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/pers-l-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/pers-l-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/pers-l-tu9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/prt-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/prt-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/psw-cuo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/psw-dui.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/psw-yanzhengtu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/re-button-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/rl-mazhida.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sa-con-l-t-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sa-con-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sa-con-r-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sa-con-r-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/shop-info-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/shop-page-left-dt-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/shop-page-left-dt-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/shop-page-songhsu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/shop-page-span2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/shop-pg2-ddtu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/shop-pg2-ddtu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/shop-pg2-ddtu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sign-qq.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sign-xinlan.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sj-pingpai-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/songshu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/songshu2-dt-h3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/songshu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sp-con-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sp-con-l-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sp-con-r-md-pj.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sp-con-r-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sp-kj-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sv-con-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sv-con-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/sv-con-r-xx.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/t-c-del.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/tc-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/th-wenjian-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/th-wenjian-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/video-lihoverbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/want-evaluate-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/want-evaluate-tux1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/want-evaluate-tux2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ys1-a-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/ys2-a-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/images/zhifu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/js/doubleDate2.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/js/jquery-1.4.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/js/star-rating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/static/js/zhonglin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/main/resources/templates/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/src/test/java/com/SearchApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/com/SearchApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/com/controller/SearchController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/css/doubleDate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/css/shopping-mall-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/css/star-rating.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/css/star-rating.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/css/zhongling2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/about-us-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/about-us-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/about-us-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/about-us-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/b5-a2-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/b5-a2-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/b5-if1-l-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/banner-bgtu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/banner-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/banner-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/beaut-con-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/beaut-con-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/beaut-con-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/beaut-con-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/beaut-lg-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/beaut-lg-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/beaut-lg-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/box3-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/box7-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/box7-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/box7-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/box7-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/box7-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/box7-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/close-select-city.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/confirmation-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/confirmation-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dai.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dai1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dai2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/data-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/data-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/din-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/din-m-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/din-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dingwei-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dingwei-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dingwei-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dingwei-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dingwei-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dingwei-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dl3-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dl3-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-l-tuda1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-l-tuda2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-l-tuda3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-l-tuda4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-l-tuda5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-l-tuda6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-l-tuda7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-l-tuda8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-qietu-left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-qietu-right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-qietu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-qietu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-qietu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-qietu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-qietu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-qietu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-if1-qietu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-ifm-sp1-img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-ifr-fd-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-kj.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-wx.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/dt-xl.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ed-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ed-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/erweima-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/erweima-tu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/fa-r-con-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/fa-r-con-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/fa-r-con-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/fa-r-con-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/failure.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hm-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hm-m-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hm-m-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hm-r-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/home-b-m-dtbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hot-tu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hot-tu2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hot-tu3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hot-tu4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hot-tu5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hot-tu6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hot-tu7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hot-tu8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/hover-br-li-tu9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/if2-l-box1-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/if2-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/if2-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/if2-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/if2-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/if2-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/if2-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/if2-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/in-matong.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/in-matong2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/in-matong3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/int-r-con-li-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/int-r-con-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/int-r-con-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/integral-left-li-p1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/integral-left-li-p2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/integral-left-li-p3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/integral-left-li-p4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/integral-left-li-p5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/integral-left-li-p6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/integral-left-li-p7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/integral-left-li-p8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/jiangheng.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/kj-show-dt-tu1-show.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/kj-show-dt-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/kj-tu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/kj-tu2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/kj-tu3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ktv-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ktv-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ktv-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ktv-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ktv-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ktv-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ktv-li-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ktv-li-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/lanyuelian.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/logn-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/m-act-adverut.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/m-act-adverut2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/m-act-adverut3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/m-act-con-firstli-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/m-act-con-li-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ma-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ma-r-tu/ma-r-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ma-r-tu/ma-r-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ma-r-tu/ma-r-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ma-r-tu/ma-r-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ma-r-tu/ma-r-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ma-r-tu/ma-r-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ma-r-tu/ma-r-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ma-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/message-board-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/mk-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/mk-m-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/mk-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/pcm-con-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/pers-l-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/pers-l-tu10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/pers-l-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/pers-l-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/pers-l-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/pers-l-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/pers-l-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/pers-l-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/pers-l-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/pers-l-tu9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/prt-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/prt-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/psw-cuo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/psw-dui.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/psw-yanzhengtu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/re-button-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/rl-mazhida.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sa-con-l-t-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sa-con-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sa-con-r-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sa-con-r-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/shop-info-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/shop-page-left-dt-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/shop-page-left-dt-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/shop-page-songhsu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/shop-page-span2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/shop-pg2-ddtu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/shop-pg2-ddtu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/shop-pg2-ddtu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sign-qq.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sign-xinlan.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sj-pingpai-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/songshu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/songshu2-dt-h3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/songshu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sp-con-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sp-con-l-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sp-con-r-md-pj.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sp-con-r-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sp-kj-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sv-con-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sv-con-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/sv-con-r-xx.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/t-c-del.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/tc-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/th-wenjian-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/th-wenjian-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/video-lihoverbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/want-evaluate-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/want-evaluate-tux1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/want-evaluate-tux2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ys1-a-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/ys2-a-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/images/zhifu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/js/doubleDate2.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/js/jquery-1.4.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/js/star-rating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/static/js/zhonglin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/classes/templates/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search/target/test-classes/com/SearchApplicationTests.class" afterDir="false" />
+    <list default="true" id="a08354f9-3d85-4ece-8dbe-28eb0c3a9593" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_quhaodian_freemaker_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_quhaodian_hibernate_common_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_15_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/item-api/item-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/item-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/item-api/src/main/java/com/api/item/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/common/src/main/java/common/pojo/PageResultBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/item-service/src/main/java/item/service/ItemServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/common/src/main/java/common/pojo/ResultBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic/common/src/main/java/common/pojo/ResultBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/common/target/classes/common/pojo/ResultBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/basic/common/target/classes/common/pojo/ResultBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/search-api/src/main/java/com/api/search/ISearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/search-api/src/main/java/com/api/search/ISearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/search-api/target/classes/com/api/search/ISearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/search-api/target/classes/com/api/search/ISearchService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/mapper/src/main/java/com/mapper/TProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic/mapper/src/main/java/com/mapper/TProductMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/mapper/target/classes/com/mapper/TProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic/mapper/target/classes/com/mapper/TProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/product-service/src/main/java/product/service/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/product-service/src/main/java/product/service/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index/target/classes/com/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/index/target/classes/com/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/search-service/src/main/java/com/service/SearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/search-service/src/main/java/com/service/SearchServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/search-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/search-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/search-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/search-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/search-service/target/classes/com/service/SearchServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/search-service/target/classes/com/service/SearchServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/background/background.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/background/background.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/background/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/background/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/background/src/main/java/background/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/background/src/main/java/background/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/background/target/classes/background/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/background/target/classes/background/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/search/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/search/src/main/resources/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/search/target/classes/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/search/target/classes/templates/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -603,9 +74,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -644,19 +115,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/search/src/main/resources/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nxms-renew" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\InterliJ_IDEA\IntelliJ IDEA 2019.3\ideaProject\spring-boot-demo\web\index\src\main\resources\static" />
-      <recent name="D:\InterliJ_IDEA\IntelliJ IDEA 2019.3\ideaProject\spring-boot-demo\web\index\src\main\resources" />
-      <recent name="D:\InterliJ_IDEA\IntelliJ IDEA 2019.3\ideaProject\spring-boot-demo\web\background\src\main\resources\static" />
-      <recent name="D:\InterliJ_IDEA\IntelliJ IDEA 2019.3\ideaProject\spring-boot-demo\web\background\src\main\resources\static\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\InterliJ_IDEA\IntelliJ IDEA 2019.3\ideaProject\spring-boot-demo\web\search\src\main\resources\static\images" />
       <recent name="D:\InterliJ_IDEA\IntelliJ IDEA 2019.3\ideaProject\spring-boot-demo\web\search\src\main\resources\static\css" />
@@ -664,8 +129,14 @@
       <recent name="D:\InterliJ_IDEA\IntelliJ IDEA 2019.3\ideaProject\spring-boot-demo\web\search\src\main\resources\templates" />
       <recent name="D:\InterliJ_IDEA\IntelliJ IDEA 2019.3\ideaProject\spring-boot-demo\web\index\src\main\resources\templates" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\InterliJ_IDEA\IntelliJ IDEA 2019.3\ideaProject\spring-boot-demo\web\index\src\main\resources\static" />
+      <recent name="D:\InterliJ_IDEA\IntelliJ IDEA 2019.3\ideaProject\spring-boot-demo\web\index\src\main\resources" />
+      <recent name="D:\InterliJ_IDEA\IntelliJ IDEA 2019.3\ideaProject\spring-boot-demo\web\background\src\main\resources\static" />
+      <recent name="D:\InterliJ_IDEA\IntelliJ IDEA 2019.3\ideaProject\spring-boot-demo\web\background\src\main\resources\static\css" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SearchServiceApplication">
+  <component name="RunManager" selected="Spring Boot.BackgroundApplication">
     <configuration name="SearchServiceApplicationTests.addorUpdateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="search-service" />
       <extension name="coverage">
@@ -733,6 +204,13 @@
     <configuration name="IndexApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="index" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.IndexApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="item-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="item.ItemServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -977,7 +455,9 @@
       <workItem from="1591756489383" duration="9546000" />
       <workItem from="1591773469153" duration="2936000" />
       <workItem from="1591776807013" duration="32362000" />
-      <workItem from="1591943103322" duration="5961000" />
+      <workItem from="1591943103322" duration="6375000" />
+      <workItem from="1592024767692" duration="11321000" />
+      <workItem from="1592180893798" duration="10220000" />
     </task>
     <task id="LOCAL-00001" summary="完成FastDFS文件上传功能">
       <created>1591781323658</created>
@@ -1007,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591867430208</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="solr搜索功能">
+      <created>1591952340685</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591952340686</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1017,7 +504,8 @@
     <MESSAGE value="完成FastDFS文件上传功能" />
     <MESSAGE value="富文本编辑器功能和主页分类功能" />
     <MESSAGE value="主页分类功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="主页分类功能" />
+    <MESSAGE value="solr搜索功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="solr搜索功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1591845052094">
@@ -1036,10 +524,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="494" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1591777183898" />
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1591931846565">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1592189523825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591931846565" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592189523825" />
     <state x="313" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591779275256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1048,66 +536,70 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="531" y="271" width="473" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1591947275096" />
-    <state x="215" y="6" key="CommitChangelistDialog2" timestamp="1591867428036">
+    <state x="215" y="6" key="CommitChangelistDialog2" timestamp="1591952337692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="215" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591867428036" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1591856324712">
+    <state x="215" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591952337692" />
+    <state width="430" height="466" key="DebuggerActiveHint" timestamp="1592050260182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591856324712" />
-    <state width="1493" height="184" key="GridCell.Tab.0.bottom" timestamp="1591948396040">
+    <state width="430" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1592050260182" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1592203268702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591948396040" />
-    <state width="1493" height="184" key="GridCell.Tab.0.center" timestamp="1591948396040">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592203268702" />
+    <state width="1493" height="269" key="GridCell.Tab.0.bottom" timestamp="1592051011954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591948396040" />
-    <state width="1493" height="184" key="GridCell.Tab.0.left" timestamp="1591948396039">
+    <state width="1493" height="269" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592051011954" />
+    <state width="1493" height="269" key="GridCell.Tab.0.center" timestamp="1592051011954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591948396039" />
-    <state width="1493" height="184" key="GridCell.Tab.0.right" timestamp="1591948396040">
+    <state width="1493" height="269" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592051011954" />
+    <state width="1493" height="269" key="GridCell.Tab.0.left" timestamp="1592051011953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591948396040" />
-    <state width="1493" height="184" key="GridCell.Tab.1.bottom" timestamp="1591948396041">
+    <state width="1493" height="269" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592051011953" />
+    <state width="1493" height="269" key="GridCell.Tab.0.right" timestamp="1592051011954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591948396041" />
-    <state width="1493" height="184" key="GridCell.Tab.1.center" timestamp="1591948396041">
+    <state width="1493" height="269" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592051011954" />
+    <state width="1493" height="269" key="GridCell.Tab.1.bottom" timestamp="1592051011954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591948396041" />
-    <state width="1493" height="184" key="GridCell.Tab.1.left" timestamp="1591948396041">
+    <state width="1493" height="269" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592051011954" />
+    <state width="1493" height="269" key="GridCell.Tab.1.center" timestamp="1592051011954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591948396041" />
-    <state width="1493" height="184" key="GridCell.Tab.1.right" timestamp="1591948396041">
+    <state width="1493" height="269" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592051011954" />
+    <state width="1493" height="269" key="GridCell.Tab.1.left" timestamp="1592051011954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591948396041" />
-    <state width="1493" height="222" key="GridCell.Tab.2.bottom" timestamp="1591943885894">
+    <state width="1493" height="269" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592051011954" />
+    <state width="1493" height="269" key="GridCell.Tab.1.right" timestamp="1592051011954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="222" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591943885894" />
-    <state width="1493" height="222" key="GridCell.Tab.2.center" timestamp="1591943885894">
+    <state width="1493" height="269" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592051011954" />
+    <state width="1493" height="321" key="GridCell.Tab.2.bottom" timestamp="1592050857918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="222" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1591943885894" />
-    <state width="1493" height="222" key="GridCell.Tab.2.left" timestamp="1591943885894">
+    <state width="1493" height="321" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592050857918" />
+    <state width="1493" height="321" key="GridCell.Tab.2.center" timestamp="1592050857918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="222" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1591943885894" />
-    <state width="1493" height="222" key="GridCell.Tab.2.right" timestamp="1591943885894">
+    <state width="1493" height="321" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1592050857918" />
+    <state width="1493" height="321" key="GridCell.Tab.2.left" timestamp="1592050857918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="222" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1591943885894" />
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1591923918262">
+    <state width="1493" height="321" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1592050857918" />
+    <state width="1493" height="321" key="GridCell.Tab.2.right" timestamp="1592050857918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1591923918262" />
+    <state width="1493" height="321" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1592050857918" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1592190953412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1592190953412" />
     <state x="349" y="74" key="Registry" timestamp="1591856184079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1116,37 +608,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591945527270" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591867455950">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591952370461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591867455950" />
-    <state x="447" y="150" width="642" height="524" key="find.popup" timestamp="1591770594157">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591952370461" />
+    <state x="447" y="150" width="642" height="524" key="find.popup" timestamp="1592190193910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="150" width="642" height="524" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1591770594157" />
+    <state x="447" y="150" width="642" height="524" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1592190193910" />
     <state x="431" y="203" key="git4idea.merge.GitPullDialog" timestamp="1591840909858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1591840909858" />
-    <state x="356" y="113" width="1180" height="602" key="new project wizard" timestamp="1591922650945">
+    <state x="481" y="312" key="git4idea.ui.GitStashDialog" timestamp="1592201909835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="356" y="113" width="1180" height="602" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591922650945" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.8/pagehelper-5.1.8.jar!/com/github/pagehelper/PageInfo.class</url>
-          <line>67</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.8/pagehelper-5.1.8.jar!/com/github/pagehelper/PageInfo.class</url>
-          <line>58</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="481" y="312" key="git4idea.ui.GitStashDialog/0.0.1536.824@0.0.1536.824" timestamp="1592201909835" />
+    <state x="356" y="113" width="1180" height="602" key="new project wizard" timestamp="1592182175072">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="113" width="1180" height="602" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1592182175072" />
   </component>
 </project>
