@@ -9,17 +9,25 @@
         <module name="item-api" />
         <module name="basic" />
         <module name="search" />
+        <module name="user-service" />
         <module name="index" />
-        <module name="product-service" />
-        <module name="entity" />
-        <module name="common" />
-        <module name="background" />
         <module name="product-api" />
+        <module name="product-service" />
+        <module name="email-api" />
+        <module name="search-service" />
+        <module name="cart-api" />
+        <module name="cart" />
+        <module name="entity" />
+        <module name="web" />
+        <module name="email-service" />
+        <module name="background" />
+        <module name="sso" />
         <module name="item-service" />
         <module name="mapper" />
         <module name="search-api" />
-        <module name="search-service" />
-        <module name="web" />
+        <module name="cart-service" />
+        <module name="user-api" />
+        <module name="common" />
         <module name="service" />
       </profile>
     </annotationProcessing>
@@ -27,7 +35,12 @@
       <module name="api" target="1.5" />
       <module name="background" target="1.8" />
       <module name="basic" target="1.8" />
+      <module name="cart" target="1.8" />
+      <module name="cart-api" target="1.8" />
+      <module name="cart-service" target="1.8" />
       <module name="common" target="6" />
+      <module name="email-api" target="1.5" />
+      <module name="email-service" target="1.8" />
       <module name="entity" target="1.5" />
       <module name="index" target="1.8" />
       <module name="item-api" target="1.5" />
@@ -40,6 +53,9 @@
       <module name="search-service" target="1.8" />
       <module name="service" target="1.8" />
       <module name="spring-boot-demo1" target="1.8" />
+      <module name="sso" target="1.8" />
+      <module name="user-api" target="1.8" />
+      <module name="user-service" target="1.8" />
       <module name="web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -47,6 +63,11 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="background" options="-parameters" />
       <module name="basic" options="-parameters" />
+      <module name="cart" options="-parameters" />
+      <module name="cart-api" options="-parameters" />
+      <module name="cart-service" options="-parameters" />
+      <module name="email-api" options="" />
+      <module name="email-service" options="-parameters" />
       <module name="index" options="-parameters" />
       <module name="item-service" options="-parameters" />
       <module name="mapper" options="-parameters" />
@@ -54,6 +75,9 @@
       <module name="search" options="-parameters" />
       <module name="search-service" options="-parameters" />
       <module name="service" options="-parameters" />
+      <module name="sso" options="-parameters" />
+      <module name="user-api" options="-parameters" />
+      <module name="user-service" options="-parameters" />
       <module name="web" options="-parameters" />
     </option>
   </component>

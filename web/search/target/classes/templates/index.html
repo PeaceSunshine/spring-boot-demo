@@ -16,7 +16,7 @@
 <!--top 开始-->
 <div class="top">
     <div class="top-con w1200">
-        <p class="t-con-l f-l">您好，欢迎来到宅客微购</p>
+        <p class="t-con-l f-l loginSuccess">您好，请登录</p>
         <ul class="t-con-r f-r">
             <li><a href="#">我 (个人中心)</a></li>
             <li><a href="#">我的购物车</a></li>
@@ -913,12 +913,15 @@
         </div>
         <div class="shop-right-con">
             <ul class="shop-ul-tu shop-ul-tu1">
-                <li th:each="product : ${page.list}">
+                <li th:each="product : ${list}" style="height: 320px;width: 230px;margin: 0 8px 8px 0">
                     <div class="li-top">
-                        <a href="#" class="li-top-tu"><img src="images/sp-con-r-tu.gif" th:src="${product.images}" style="width: 200px;height: 200px;"/></a>
+                        <a href="#" class="li-top-tu"><img  th:src="${product.image}" style="width: 150px;height: 150px;"/></a>
                         <p class="jiage">￥<span class="sp1" th:text="|${product.price}|">￥109</span><span class="sp2">￥999999</span></p>
+<!--                        <p class="jiage" > <span class="sp1" th:utext="${product.name}">德国原装进口Wurenbacher瓦伦冰黑啤5L/桶</span><span class="sp2" th:utext="${product.salePoint}">卖点</span></p>-->
                     </div>
                     <p class="miaoshu" th:utext="${product.name}">德国原装进口Wurenbacher瓦伦冰黑啤5L/桶</p>
+                    <p class="miaoshu" th:utext="${product.salePoint}">卖点</p>
+
                     <div class="li-md">
                         <div class="md-l f-l">
                             <p class="md-l-l f-l" ap="">1</p>
@@ -934,8 +937,8 @@
                         </div>
                         <div style="clear:both;"></div>
                     </div>
-                    <p class="pingjia">8888888评价</p>
-                    <p class="weike">微克宅购自营</p>
+                    <p class="pingjia" style="margin-top: 9px">8888888评价</p>
+<!--                    <p class="weike">微克宅购自营</p>-->
                 </li>
 
                 <div style="clear:both;"></div>
@@ -1041,6 +1044,46 @@
         沪ICP备13044278号<span>|</span>合字B1.B2-20130004<span>|</span>营业执照<span>|</span>互联网药品信息服务资格证<span>|</span>互联网药品交易服务资格证
     </p>
 </div>
+<script type="text/javascript">
 
+    function deal(data) {
+        console.log(data);
+    }
+
+    $(function () {
+        //异步加载分类信息，然后解析服务端返回的json，渲染出分类信息
+        /*$.ajax({
+            url:"index/listType",
+            success:function(data){
+                console.log(data);
+            }
+        });*/
+
+        //异步调用登录状态查询接口，验证用户登录状态
+        //控制了ajax的方式，默认不允许跨域访问
+        //不能接受不同源的信息
+
+        //为了解决这个问题。jQuery对此作为了封装，但是其本质用的就是script标签来实现的
+        /*$.ajax({
+            url:"http://localhost:9093/sso/checkIsLogin4JSONP",
+            dataType:"jsonp",
+            jsonpCallback:"deal"
+        });*/
+
+        $.ajax({
+            url:"http://localhost:9093/sso/checkIsLogin",
+            crossDomain:true,
+            xhrFields:{withCredentials:true},
+            success:function(data){
+                if(data.statusCode=="200"){
+                    $(".loginSuccess").text("您好,"+data.data+" 欢迎来到宅客微购");
+                }else{
+                    $(".loginSuccess").text("您好，请登录")
+                }
+            }
+        })
+    })
+
+</script>
 </body>
 </html>

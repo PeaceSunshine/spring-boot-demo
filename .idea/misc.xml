@@ -18,6 +18,14 @@
         <option value="$PROJECT_DIR$/service/search-service/pom.xml" />
         <option value="$PROJECT_DIR$/web/search/pom.xml" />
         <option value="$PROJECT_DIR$/service/item-service/pom.xml" />
+        <option value="$PROJECT_DIR$/api/email-api/pom.xml" />
+        <option value="$PROJECT_DIR$/service/email-service/pom.xml" />
+        <option value="$PROJECT_DIR$/api/user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/service/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/web/sso/pom.xml" />
+        <option value="$PROJECT_DIR$/api/cart-api/pom.xml" />
+        <option value="$PROJECT_DIR$/service/cart-service/pom.xml" />
+        <option value="$PROJECT_DIR$/web/cart/pom.xml" />
       </list>
     </option>
   </component>

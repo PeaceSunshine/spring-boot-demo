@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <!--<parent>
-        <artifactId>spring-boot-demo1</artifactId>
-        <groupId>spring.boot.demo</groupId>
+        <artifactId>item-boot-demo1</artifactId>
+        <groupId>item.boot.demo</groupId>
         <version>2.0.6.RELEASE</version>
     </parent>-->
     <modelVersion>4.0.0</modelVersion>
@@ -29,6 +29,12 @@
             <artifactId>pagehelper</artifactId>
             <version>5.1.8</version>
             <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
         </dependency>
     </dependencies>
 

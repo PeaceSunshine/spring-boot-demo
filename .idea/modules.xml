@@ -5,7 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/background/background.iml" filepath="$PROJECT_DIR$/web/background/background.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/basic.iml" filepath="$PROJECT_DIR$/basic/basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/cart/cart.iml" filepath="$PROJECT_DIR$/web/cart/cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/cart-api/cart-api.iml" filepath="$PROJECT_DIR$/api/cart-api/cart-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/cart-service/cart-service.iml" filepath="$PROJECT_DIR$/service/cart-service/cart-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/common/common.iml" filepath="$PROJECT_DIR$/basic/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/email-api/email-api.iml" filepath="$PROJECT_DIR$/api/email-api/email-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/email-service/email-service.iml" filepath="$PROJECT_DIR$/service/email-service/email-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/entity/entity.iml" filepath="$PROJECT_DIR$/basic/entity/entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/index/index.iml" filepath="$PROJECT_DIR$/web/index/index.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/item-api/item-api.iml" filepath="$PROJECT_DIR$/api/item-api/item-api.iml" />
@@ -18,6 +23,9 @@
       <module fileurl="file://$PROJECT_DIR$/service/search-service/search-service.iml" filepath="$PROJECT_DIR$/service/search-service/search-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-demo1.iml" filepath="$PROJECT_DIR$/spring-boot-demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/sso/sso.iml" filepath="$PROJECT_DIR$/web/sso/sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/user-api/user-api.iml" filepath="$PROJECT_DIR$/api/user-api/user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/user-service/user-service.iml" filepath="$PROJECT_DIR$/service/user-service/user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>

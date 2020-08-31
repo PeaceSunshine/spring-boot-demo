@@ -15,7 +15,7 @@
 <!--top 开始-->
 <div class="top">
     <div class="top-con w1200">
-        <p class="t-con-l f-l">您好，欢迎来到宅客微购</p>
+        <p class="t-con-l f-l loginSuccess">您好，请登录</p>
         <ul class="t-con-r f-r">
             <li><a href="#">我 (个人中心)</a></li>
             <li><a href="#">我的购物车</a></li>
@@ -1460,17 +1460,22 @@
 
         //为了解决这个问题。jQuery对此作为了封装，但是其本质用的就是script标签来实现的
         /*$.ajax({
-            url:"http://localhost:9095/sso/checkIsLogin4JSONP",
+            url:"http://localhost:9093/sso/checkIsLogin4JSONP",
             dataType:"jsonp",
             jsonpCallback:"deal"
         });*/
 
         $.ajax({
-            url:"http://sso.qf.com:9095/sso/checkIsLogin",
+            url:"http://localhost:9093/sso/checkIsLogin",
             crossDomain:true,
             xhrFields:{withCredentials:true},
             success:function(data){
-                console.log(data);
+                console.log(data)
+                if(data.statusCode=="200"){
+                    $(".loginSuccess").text("您好,"+data.data+" 欢迎来到宅客微购");
+                }else{
+                    $(".loginSuccess").text("您好，请登录");
+                }
             }
         })
     })

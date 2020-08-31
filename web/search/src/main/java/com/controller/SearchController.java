@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -30,12 +31,12 @@ public class SearchController {
     }
 
     @RequestMapping("searchByKeyWord")
-    //    @ResponseBody
     public String searchByKeyWord(String keyWord, Model model){
 
         //1.得到商品集合
         List<TProduct> list = searchService.searchByKeyWord(keyWord);
+        //List<TProduct> list = new ArrayList<>();
         model.addAttribute("list",list);
-        return "search";
+        return "index";
     }
 }

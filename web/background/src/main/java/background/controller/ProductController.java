@@ -6,6 +6,9 @@ import com.api.product.IProductService;
 import com.api.search.ISearchService;
 import com.entity.TProduct;
 import com.github.pagehelper.PageInfo;
+import common.constant.MQConstant;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -29,6 +32,9 @@ public class ProductController {
     @Reference
     private ISearchService searchService;
 
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
+
     @GetMapping("list")
     public String list(Model model) {
         List<TProduct> list = productService.list();
@@ -47,8 +53,11 @@ public class ProductController {
     public String add(ProductVO productVO) {
         Long productId = productService.add(productVO);
         System.out.println("商品controller id:"+productId);
+
+        //添加操作消息发送到队列
+        rabbitTemplate.convertAndSend(MQConstant.EXCHANGE.CENTER_PRODUCT_EXCHANGE,"product.add",productId);
         //更新solr索引库
-        searchService.updateById(productId);
+        //searchService.updateById(productId);
         return "redirect:/product/page/1/1";
     }
 }

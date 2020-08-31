@@ -147,7 +147,6 @@ public class SearchServiceImpl  implements ISearchService {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return productList;
     }
 
@@ -259,7 +258,7 @@ public class SearchServiceImpl  implements ISearchService {
         document.setField("product_name",product.getName());
         document.setField("product_price",product.getPrice());
         document.setField("product_sale_point",product.getSalePoint());
-        document.setField("product_images",product.getImage());
+        document.setField("product_images",product.getImage()==null?"image is null":product.getImage());
         //4.保存
         try {
             solrClient.add(document);
